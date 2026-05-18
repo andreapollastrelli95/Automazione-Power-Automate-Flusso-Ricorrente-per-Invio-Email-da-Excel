@@ -1,3 +1,6 @@
+Questo repository documenta la creazione di un flusso ricorrente in Microsoft Power Automate progettato per automatizzare l’invio quotidiano di email ai contatti registrati in un file Excel archiviato su OneDrive.
+L’esercizio riproduce uno scenario aziendale in cui il team eventi di Contoso raccoglie i dati dei partecipanti e desidera inviare automaticamente informazioni aggiornate sull’evento.
+
 🎯 Obiettivo del progetto
 Realizzare un flusso cloud che:
 recupera ogni giorno le righe di una tabella Excel contenente i contatti;
@@ -40,7 +43,7 @@ Itera su ogni riga della tabella Excel.
 4. Azione – Invia un messaggio di posta elettronica
 Per ogni contatto:
 A: valore dinamico Contatto E-mail
-Oggetto: Informazioni Evento
+Oggetto: Informazioni Evento Contoso
 Corpo: email personalizzata con Nome e testo informativo sull’evento
 
 📬 Risultato finale
@@ -58,3 +61,5 @@ Test → Manualmente
 Esegui flusso
 
 Verifica dell’esecuzione tramite indicatori verdi e ricezione dell’email.
+<img width="405" height="592" alt="image" src="https://github.com/user-attachments/assets/2bb91646-fef4-4db4-a217-37dd15f4f795" />
+
